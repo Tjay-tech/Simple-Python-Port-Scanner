@@ -1,12 +1,12 @@
 # Simple-Python-Port-Scanner
 A lightweight Python tool for scanning TCP ports on a target host.
 
-Python Port Scanner
+**Python Port Scanner**
 
 A lightweight, fast TCP port scanner built with Python.
 It is designed for learning networking fundamentals, socket programming, and basic concurrency using threading.
 
-Features
+**Features**
 Current Features:
 TCP port scanning using Python sockets
 Custom port range input
@@ -14,7 +14,7 @@ Detection of open ports
 Threaded scanning for improved speed
 Adjustable timeout for faster or more accurate scans
 
-Planned Features (Roadmap)
+🚀 **Planned Features (Roadmap)**
 Service detection (banner grabbing for SSH, HTTP, FTP, etc.)
 Export scan results to .txt and .csv
 Open port sensitivity rating 
@@ -24,11 +24,11 @@ Host discovery (check if target is online before scanning)
 Better scan modes (quick / normal / deep scan)
 JSON output for automation use
 
-Requirements
+⚙️ **Requirements**
 Python 3.x
 No external libraries required (uses built-in modules only).
 
-How to Use
+**How to Use**
 Run the script:
 python scanner.py
 
@@ -42,7 +42,7 @@ Example Output
 [+] port 80 is open on 127.0.0.1
 [+] port 9999 is open on 127.0.0.1
 
-How It Works
+🧠 **How It Works**
 This tool uses Python’s socket module to attempt TCP connections to a target IP and port range.
 
 If the connection succeeds → port is OPEN
@@ -50,7 +50,7 @@ If it fails → port is CLOSED or FILTERED
 
 Threading is used to scan multiple ports simultaneously, significantly improving scan speed compared to sequential scanning.
 
-Disclaimer
+⚠️**Disclaimer**
 This tool is intended for educational purposes only.
 Do not use it to scan systems, networks, or devices you do not own or do not have explicit permission to test. Unauthorized scanning may be illegal.
 
